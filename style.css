@@ -168,3 +168,41 @@ ul {
 .button-draw:hover {
     background-color: var(--color-button-hover);
 }
+
+@media (min-width: 18.9375rem) and (max-width: 50rem) { /*Dentro das chaves temos uma condição de 303px até 800px telas para Tablets e telas menores*/
+
+    .header-banner{
+        width: auto;
+        flex-direction: column; /* direção dos itens no modo de colunas */;
+        gap: 0.5rem; /* espaço entre os itens */
+    }
+
+    .main-title {
+        font-size: 2.25rem; /* 36px */
+    }
+
+    .section-title {
+        font-size: 1.5rem; /* 24px */
+    }
+
+    .input-name {
+        font-size: 0.875rem; /* 14px */
+    }
+
+    .input-title {
+        font-size: 0.875rem; /* 14px */
+    }
+
+    button {
+        font-size: 0.875rem; /* 14px */
+    }
+
+    .result-list {
+        font-size: 1.125rem; /* 18px */
+    }
+
+    .button-draw {
+        font-size: 0.875rem; /* 14px */
+    }
+
+}
