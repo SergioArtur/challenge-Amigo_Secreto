@@ -171,12 +171,6 @@ ul {
 
 @media (min-width: 10rem) and (max-width: 50rem) { /*Dentro das chaves temos uma condição de 303px até 800px telas para Tablets e telas menores*/
 
-    * {
-        margin: 0;
-        padding: 0;
-        box-sizing: border-box;
-    }
-
     .header-banner{
         width: auto;
         flex-direction: column; /* direção dos itens no modo de colunas */;
