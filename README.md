@@ -3,7 +3,6 @@
 
 # Bem-vindo ao meu projeto.
 ### Esse é o Jogo do Amigo Secreto que fiz para a Alura/Oracle.
-<hr>
 
 ##  Aplicativo para Sorteio de Amigos
 <h3>Este aplicativo realiza o sorteio de uma lista de amigos de forma simples e eficiente.</h3>
@@ -11,23 +10,24 @@
 * [Acesse o app e veja como ficou.](https://desafiojogo-do-amigo-secreto.vercel.app/)
 <br>
 
-##  Funcionalidades  
+##  Funcionalidades:
 - Sorteia aleatoriamente um amigo da lista.  
 - Permite continuar o sorteio até que não restem mais participantes.  
 - Para a melhor experiência, recomenda-se o uso em dispositivos com resolução mínima de 380 pixels.
 
-##  Próximas Melhorias  
+##  Próximas Melhorias:
 - Adicionar um botão para reiniciar o jogo.  
 - Aprimorar o layout para uma experiência mais intuitiva e agradável.  
 - Inserir o rodapé.
-<hr>
 
-### Ferramentas utilizadas:
+
+## Ferramentas utilizadas:
 
 * HTML
 * CSS
-* Flex-box
+    * Flex-box
+    * Media Query
 * JavaScript (JS)
 ## Feito por:
-### Sérgio Artur
+### 🪧 Sérgio Artur
 ### Linkedin: https://www.linkedin.com/in/sergio-artur/
