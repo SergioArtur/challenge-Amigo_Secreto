@@ -169,7 +169,7 @@ ul {
     background-color: var(--color-button-hover);
 }
 
-@media (min-width: 10rem) and (max-width: 50rem) { /*Dentro das chaves temos uma condição de 303px até 800px telas para Tablets e telas menores*/
+@media (min-width: 23rem) and (max-width: 50rem) { /*Dentro das chaves temos uma condição de 370px até 800px telas para Tablets e telas menores*/
 
     .header-banner{
         width: auto;
