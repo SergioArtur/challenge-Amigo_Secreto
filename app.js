@@ -12,6 +12,7 @@ function mostrarNoHtml(){//Mostrar a lista de amigos no HTML de forma dinâmica.
 //Pode ser lido também como: Para cada amigo na lista, faça a inserção do nome na lista de amigos.
 //Enquanto o índice for menor que o tamanho do array, ele irá adicionar os nomes na lista de amigos. Se ele ficar vazio, não irá adicionar nada.
   for (let i = 0; i < listaDeAmigos.length; i++) {//Laço de repetição para percorrer o array de amigos.
+//Único local que irei utilizar a variável let, pois ela é alterada a cada iteração do looping, diferente da const que não pode ser alterada.
 //length é o que informa quanto tem de elementos no array, ou seja, quantos nomes foram adicionados na lista de amigos.
     //Criando um item de lista para cada amigo adicionado.
     const itemLista = document.createElement("li");//Cria um uma variável para receber um elemento/Tag "li" do HTML.
