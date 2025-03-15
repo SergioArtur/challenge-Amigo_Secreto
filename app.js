@@ -57,7 +57,7 @@ function sortearAmigo() { //Função para sortear um amigo da lista.
     const resultado = document.getElementById("resultado");//Variável que recebe o id="resultado" do documento html.
     resultado.innerHTML = `O Felizardo Foi: ${sorteio}`;//Exibe o nome do amigo sorteado no html pelo innerHTML.
 //Limpando a lista dos amigos que foram inseridos, após o sorteio.
-    let limparLista = document.getElementById("listaAmigos");//Variável que recebe o id="listaAmigos" do documento html.
+    const limparLista = document.getElementById("listaAmigos");//Variável que recebe o id="listaAmigos" do documento html.
     limparLista.innerHTML = "";//Limpa a lista de amigos, para não duplicar os nomes na lista.
 
 //Abaixo foi realizado a remoção do nome que foi sorteado na lista.

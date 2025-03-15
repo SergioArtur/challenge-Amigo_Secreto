@@ -19,6 +19,7 @@
 ##  Próximas Melhorias  
 - Adicionar um botão para reiniciar o jogo.  
 - Aprimorar o layout para uma experiência mais intuitiva e agradável.  
+- Inserir o rodapé.
 <hr>
 
 ### Ferramentas utilizadas:
