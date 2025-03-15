@@ -38,12 +38,12 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 40px 0 0;
+    padding: 40px 0 0 0;/* espaçamento: Superior Direito Inferior Esquerdo*/
 }
 
 /* Seção de entrada */
 .input-section {
-    flex: 60%;
+    flex: 50%;
     background-color: var(--color-secondary);
     border: 1px solid #000;
     border-radius: 64px 64px 0 0;
@@ -51,7 +51,7 @@ body {
     flex-direction: column;
     align-items: center;
     padding: 20px;
-    width: 100%;
+    width: auto;
 }
 
 /* Títulos */
@@ -169,12 +169,22 @@ ul {
     background-color: var(--color-button-hover);
 }
 
-@media (min-width: 18.9375rem) and (max-width: 50rem) { /*Dentro das chaves temos uma condição de 303px até 800px telas para Tablets e telas menores*/
+@media (min-width: 10rem) and (max-width: 50rem) { /*Dentro das chaves temos uma condição de 303px até 800px telas para Tablets e telas menores*/
+
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
 
     .header-banner{
         width: auto;
         flex-direction: column; /* direção dos itens no modo de colunas */;
         gap: 0.5rem; /* espaço entre os itens */
+    }
+
+    input-section{
+        width: 100%;
     }
 
     .main-title {
